@@ -1,0 +1,55 @@
+java -ea qirkat.Main
+set white --w-- ---w- ----- ----- ----b
+manual black
+start
+dump
+@<===
+@< - - - - b
+@< - - - - -
+@< - - - - -
+@< - - - w -
+@< - - w - -
+@<===
+d2-c2
+dump
+@<===
+@< - - - - b
+@< - - - - -
+@< - - - - -
+@< - - w - -
+@< - - w - -
+@<===
+e5-e4
+c2-b2
+dump
+@<===
+@< - - - - -
+@< - - - - b
+@< - - - - -
+@< - w - - -
+@< - - w - -
+@<===
+e4-d4
+dummyLololololol
+Command not understood
+c1-c2
+dump
+@<===
+@< - - - - -
+@< - - - b -
+@< - - - - -
+@< - w w - -
+@< - - - - -
+@<===
+d4-c4
+c2-d2
+# c2-d2 should be legal because d2-c2 was the move of a different piece
+dump
+@<===
+@< - - - - -
+@< - - b - -
+@< - - - - -
+@< - w - w -
+@< - - - - -
+@<===
+quit

@@ -1,0 +1,21 @@
+Playing the game:
+The game does not start until you press Game->Start. You can undo your move with
+Game->Undo, and the board will undo the current player's previous move. To
+put the board back to its initial position, press Game->New Game.
+
+Making a Move:
+In order to make a move, click on the piece. If the piece is allowed to be moved,
+the piece will be shown to be selected in green and the possible moves will be shown.
+Then the move is made if one of the possible moves is clicked. If the piece is not
+allowed to be move, then it will be shown to be selected in red.
+
+Setting Players:
+White and black can be set to be either AI or Manual. To set white, go to White
+dropdown menu, and to set black, go to Black dropdown menu.
+
+Setting the Board:
+You can set up the board which ever way you like by going to Game->Set Pieces
+which will bring up another window. Pick the radio button for each square.
+The squares are labeled with linearized index, starting at the bottom left
+square. The bottom left is 0, and the top right is 24. At the bottom you can
+pick who starts the game, and then press set, to set the game.

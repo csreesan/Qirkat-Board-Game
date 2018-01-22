@@ -1,0 +1,32 @@
+# Black AI should be able to force a win
+# There is clearly one best move in each position for black
+# The AI must be able to find it and win in 4 moves
+#Testing illegal white horizontal move as well
+java -ea qirkat.Main
+set black --w-- ----- ----- -b--- -----
+dump
+@<===
+@< - - - - -
+@< - b - - -
+@< - - - - -
+@< - - - - -
+@< - - w - -
+@<===
+start
+@<Black moves b4-c3.
+c1-d1
+@<Black moves c3-d3.
+d1-e1
+@<Black moves d3-e3.
+dump
+@<===
+@< - - - - -
+@< - - - - -
+@< - - - - b
+@< - - - - -
+@< - - - - w
+@<===
+e1-d2
+@<Black moves e3-c1.
+@<Black wins.
+quit
